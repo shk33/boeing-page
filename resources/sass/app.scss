@@ -1,0 +1,36 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+$background-color: #FFF;
+
+.navbar-laravel {
+  background-color: $background-color;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.banner {
+  padding: 0;
+  padding-top: 4rem;
+  background-color: $background-color;
+}
+
+.card-img {
+  width: 18rem;
+}
+
+.card-title {
+  font-size: 24px;
+  line-height: 1.3;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 1500px;
+}
