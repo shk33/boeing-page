@@ -13,12 +13,27 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img class="d-block w-100" src="{{ asset('img/slider1.jpg') }}" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block carrousel-caption carrousel-caption-1">
+                            <h2>
+                                BOEING PLEDGES SUPPORT TO FAMILIES, COMMUNITIES AFFECTED BY LION AIR FLIGHT 610 AND ETHIOPIAN AIRLINES FLIGHT 302 ACCIDENTS
+                            </h2>
+                        </div>
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100" src="{{ asset('img/slider2.jpg') }}" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block carrousel-caption carrousel-caption-2">
+                            <h2>
+                                BEING HEARD AT BOEING
+                            </h2>
+                        </div>
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100" src="{{ asset('img/slider3.jpg') }}" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block carrousel-caption carrousel-caption-1">
+                            <h2>
+                                MORE THAN A GAME OF FETCH: BOEING EMPLOYEES TRAIN SERVICES DOGS FOR VETERANS
+                            </h2>
+                        </div>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -36,33 +51,8 @@
                 <img class="d-block w-100" src="{{ asset('img/banner.jpg') }}" alt="Banner">
             </div>
         </div>
-        <div class="col-md-12" id="cards">
-            <div class="row justify-content-center">
-                <div class="col-md-4">
-                    <div class="card card-img">
-                        <img class="card-img-top" src="{{ asset('img/card1.jpg') }}" alt="Card1">
-                        <div class="card-body">
-                            <h5 class="card-title">Boeing in space</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card card-img">
-                        <img class="card-img-top" src="{{ asset('img/card2.jpg') }}" alt="Card2">
-                        <div class="card-body">
-                            <h5 class="card-title">Carrers at Boeing</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card card-img">
-                        <img class="card-img-top" src="{{ asset('img/card3.jpg') }}" alt="Card3">
-                        <div class="card-body">
-                            <h5 class="card-title">News</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="col-md-12" >
+            <div class="card-list-wrapper" id="card-list"></div>
         </div>
     </div>
 </div>
