@@ -15,3 +15,4 @@ require('./bootstrap');
 
 require('./components/CardList');
 require('./components/Footer');
+require('./image_replacer');

@@ -12,7 +12,12 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="{{ asset('img/slider1.jpg') }}" alt="First slide">
+                        <img
+                            class="d-block w-100 async-image"
+                            src="{{ asset('img/slider1_low.jpg') }}"
+                            data-src="{{ asset('img/slider1.jpg') }}"
+                            alt="First slide"
+                        >
                         <div class="carousel-caption d-none d-md-block carrousel-caption carrousel-caption-1">
                             <h2>
                                 BOEING PLEDGES SUPPORT TO FAMILIES, COMMUNITIES AFFECTED BY LION AIR FLIGHT 610 AND ETHIOPIAN AIRLINES FLIGHT 302 ACCIDENTS
@@ -20,7 +25,12 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="{{ asset('img/slider2.jpg') }}" alt="Second slide">
+                        <img
+                            class="d-block w-100 async-image" 
+                            src="{{ asset('img/slider2_low.jpg') }}"
+                            data-src="{{ asset('img/slider2.jpg') }}"
+                            alt="Second slide"
+                        >
                         <div class="carousel-caption d-none d-md-block carrousel-caption carrousel-caption-2">
                             <h2>
                                 BEING HEARD AT BOEING
@@ -28,7 +38,12 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="{{ asset('img/slider3.jpg') }}" alt="Third slide">
+                        <img
+                            class="d-block w-100 async-image" 
+                            src="{{ asset('img/slider3_low.jpg') }}"
+                            data-src="{{ asset('img/slider3.jpg') }}"
+                            alt="Third slide"
+                        >
                         <div class="carousel-caption d-none d-md-block carrousel-caption carrousel-caption-1">
                             <h2>
                                 MORE THAN A GAME OF FETCH: BOEING EMPLOYEES TRAIN SERVICES DOGS FOR VETERANS

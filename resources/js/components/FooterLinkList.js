@@ -14,7 +14,7 @@ class FooterLinkList extends Component {
                     {links.map( link => {
                         const {name, url} = link;
                         return (
-                            <li><a className="text-muted" href={url}>{name}</a></li>        
+                            <li key={name}><a className="text-muted" href={url}>{name}</a></li>        
                         );
                     })}
                 </ul>
